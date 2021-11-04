@@ -7,7 +7,7 @@ body {
   min-width: 300px;
   margin: 0 auto; /* Center align once max-width is reached */
   padding: 5px 10px;
-  background-color: #efd;
+  background-color: #ffffff;
   display: grid;
   grid-template-areas:
     "top"
@@ -19,20 +19,17 @@ body {
 
 header {
   grid-area: top;
-  background-color: rgb(163, 97, 31);
+  background-color: #ffffff (163, 97, 31);
 }
 section#hero {
   grid-area: hero;
-  background-color: #edf;
+  background-color: rgb(255, 255, 255);
 }
 section#products {
   grid-area: boxes;
   background-color: #def;
 }
-section#info {
-  grid-area: info;
-  background-color: #fde;
-}
+
 footer {
   grid-area: bottom;
   background-color: #fed;
@@ -76,22 +73,20 @@ header nav ul {
 }
 header nav ul li {
   margin-bottom: 2px;
+  float: left;
 }
+
 header nav ul li a {
   text-decoration: none;
-  color: white;
-  background: black;
+  color: rgb(5, 5, 5);
+  background: rgb(255, 255, 255);
   padding: 5px 5px;
-  border: 1px solid black;
   display: block;
   text-align: center;
+  font-size: 1.5em;
 }
 header nav ul li:last-child {
   margin-bottom: 0;
-}
-header nav ul li a:hover {
-  color: black;
-  background: white;
 }
 
 section#hero {
@@ -177,15 +172,10 @@ footer > :last-child {
     display: inline-block; /**/
     color: #fff; /**/
     padding: 2px 5px; /**/
-    border: 1px solid black; /**/
     text-align: center; /**/
   }
   header nav li:last-child {
     margin-right: 0; /**/
-  }
-  header nav li a:hover {
-    background-color: #fff; /**/
-    color: #000; /**/
   }
 
   section#products {
