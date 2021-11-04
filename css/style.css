@@ -19,7 +19,7 @@ body {
 
 header {
   grid-area: top;
-  background-color: #fed;
+  background-color: rgb(163, 97, 31);
 }
 section#hero {
   grid-area: hero;
