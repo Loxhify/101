@@ -40,6 +40,32 @@ section#products {
   grid-area: boxes;
   background-color: #def;
 }
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Gilroy;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  background-color: #0a3641;
+}
 
 footer {
   grid-area: bottom;
@@ -231,7 +257,12 @@ footer > :last-child {
     padding: 10px 0px 10px 10px;
   }
 }
-
+.card {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: lightslategrey;
+}
 /* For wider screens */
 @media (min-width: 1024px) {
   body {
