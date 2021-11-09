@@ -30,10 +30,7 @@ section#boxes {
 }
 }
 
-footer {
-  grid-area: bottom;
-  background-color: #3f3f3f;
-}
+
 .slogan {
   text-align: center;
 }
@@ -207,6 +204,19 @@ section#boxes {
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
+  color: #fff;
+}
+.footer-heading h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.footer-email-form {
+  color: #fff;
 }
 
 
@@ -305,6 +315,9 @@ section#boxes {
     margin: auto;
   }
   .footer-container {
-    width: 1440px;
+    width: 1280px;
+    display: flex;
+    margin: 0 auto;
   }
+  
 }
